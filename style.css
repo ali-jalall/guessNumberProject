@@ -1,0 +1,30 @@
+/* Start Div */
+/* #start-div {
+	margin: 50px auto;
+	width: 1400px;
+	height: 850px;
+	background-color: grey;
+	font-family: 'Merriweather Sans', sans-serif;
+} */
+
+#my-text {
+	width: 210px;
+	background-color: red;
+}
+
+#text-span {
+	text-align: center;
+}
+
+#container {
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 5px;
+	padding: 10px;
+}
+
+.grid-element {
+ 	padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
