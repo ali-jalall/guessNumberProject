@@ -1,26 +1,133 @@
 /* Start Div */
-/* #start-div {
+body {
+	background-color: #2748A080
+}
+
+h1 {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-family: 'Supermercado One', cursive;
+	font-size: 80px;
+}
+
+p {
+	text-align: center;
+	padding: 10px;
+	font-family: Tahoma;
+	font-size: 16pt;
+}
+
+h3 {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-family: 'Supermercado One', cursive;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20pt;
+}
+
+.h2 {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-family: 'Supermercado One', cursive;
+	font-size: 60px;
+	text-align: center;
+}
+
+.play-again {
+	margin: 20px;
+	border-radius: 10px;
+	border-color: transparent;
+	background-color: #F8F0EE;
+	padding: 16px 80px;
+	font-size: 16pt;
+}
+
+#start-div {
 	margin: 50px auto;
 	width: 1400px;
-	height: 850px;
-	background-color: grey;
-	font-family: 'Merriweather Sans', sans-serif;
-} */
+	height: 720px;
+	background-color: #53D0EC90;
+	border-radius: 1rem;
+	padding: 50px;
+}
 
-#my-text {
-	width: 210px;
+#start-btn {
+	border-radius: 1.6rem;
+	border-color: transparent;
+	background-color: #F8F0EE;
+	padding: 16px 80px;
+	font-family: Tahoma;
+	font-size: 16pt;
+	margin-top: 30%;
+}
+/* Start Div */
+
+/* Level Section */
+#level-div {
+	border-radius: 1rem;
+	background-color: #A3DCBE;
+	margin: 50px auto;
+	width: 1400px;
+	height: 720px;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-family: 'Supermercado One', cursive;
+	font-size: 50px;
+	padding-top: 100px;
+}
+
+.levels {
+	margin: 10px auto;
+	margin-top: 200px;
+	border-radius: 10px;
+	border-color: transparent;
+	background-color: #F8F0EE;
+	padding: 16px 80px;
+	font-size: 16pt;
+
+}
+/* Level Section */
+
+/* Playing Section */
+
+.btns {
+	border-radius: 14px;
+	border-color: transparent;
+}
+
+#submit {
+	border-radius: 14px;
+	border-color: transparent;
+	background-color: green;
+}
+
+#clear {
+	border-radius: 14px;
+	border-color: transparent;
 	background-color: red;
 }
 
-#text-span {
-	text-align: center;
+
+#text-div {
+	width: 196px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 0px;
+  padding: 20px 1px;
+  font-size: 16pt;
 }
 
 #container {
 	display: inline-grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 5px;
-	padding: 10px;
+	
+}
+
+#btns-section {
+  margin-top: 140px;
+  margin-left: 100px;
+  width: 300px;
+  height: 430px;
+  border-radius: 2rem;
+  padding-top: 40px;
 }
 
 .grid-element {
@@ -28,3 +135,56 @@
   font-size: 30px;
   text-align: center;
 }
+
+#hint-div {
+	position: absolute;
+	top: 338px;
+	right: 270px;
+	height: 470px;
+	width: 740px;
+	background-color: #7DC9E7;
+	border-radius: 1.6rem;
+}
+
+#first-div {
+	float: left;
+	margin: 100px;
+}
+
+#second-div {
+	float: right;
+	margin: 100px;
+}
+
+.hints {
+	font-family: Tahoma;
+	font-size: 14pt;
+}
+
+#correct-answer h2 {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-family: 'Supermercado One', cursive;
+	font-size: 60px;
+	text-align: center;
+}
+
+#correct-answer {
+	margin: 30px auto;
+	border-radius: 1.2rem;
+	text-align: center;
+	background-color: #EE7155;
+	width: 1200px;
+	height: 840px;
+}
+
+#left {
+	float: left;
+	margin: 200px;
+}
+
+#right {
+	float: right;
+	margin: 200px;
+}
+
+/* Playing Section */

@@ -2,20 +2,39 @@
 <html>
 <head>
 	<title>Demo</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Supermercado+One|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Supermercado+One|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<!-- Start - Div -->
-	<!-- <div id="start-div">
+	<!-- Start - Section -->
+	<div id="start-div">
 		<center>
-			<h1>Guess My Number</h1>
-			<button>Start</button>
+			<h1>Guess The Number</h1>
+			<button id="start-btn">Play Game</button>
 		</center>
-	</div> -->
-	<!-- Start - Div -->
+	</div>
+	<!-- Start - Section -->
 
-	<div id="section">
-		<br>
+	<!-- Level Section -->
+	<div id="level-div" style="display: none;">
+		<h2>Choose Your Level</h2>
+		<button id="easy" class="levels">Easy <br> 1 - 10</button>
+		<button id="medium" class="levels">Medium <br> 1 - 50</button>
+		<button id="hard" class="levels">Hard <br> 1 - 100</button>
+	</div>
+	<!-- Level Section -->
+
+
+	<!-- Playing Section -->
+
+	<div id="main" style="display: none;">
+		<h2 class="h2">Guess The Number</h2>
+		<div id="btns-section">
+		<div id="text-div"></div><br>
+
+		<!-- Buttons Section -->
 		<div id="container">
 			<button id="1" class="grid-element btns">1</button>
 			<button id="2" class="grid-element btns">2</button>
@@ -26,12 +45,31 @@
 			<button id="7" class="grid-element btns">7</button>
 			<button id="8" class="grid-element btns">8</button>
 			<button id="9" class="grid-element btns">9</button>
-			<button id="clear" class="grid-element btns">C</button>
+			<button id="clear" class="grid-element"></button>
 			<button id="0" class="grid-element btns">0</button>
-			<input id="submit" type="submit" name="sub-btn">
+			<button id="submit" class="grid-element btns"></button>
 		</div>
-		
+		<!-- Buttons Section -->
+	 </div>
+
+	  <!-- Hint Div -->
+	<div id="hint-div" style="display: none;">
+		<div class="hints" id="first-div"></div>
+		<div class="hints" id="second-div"></div>
 	</div>
+		<!-- Hint Div -->
+	
+	</div>
+
+	 <!-- Solution Div -->
+	<div id="correct-answer" style="display: none;">
+		<h2>Congratulations!</h2>
+		<div id="inner"></div>
+	</div>
+	<!-- Solution Div -->
+
+
+
 
 
 
