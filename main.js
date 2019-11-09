@@ -63,7 +63,7 @@ easy.on('click', function(){
 		if(sum.length === 4){
 			alert('stop')
 		}
-		if(sum.length === 8){
+		if(sum.length === 6){
 			alert('stop again')
 		}
 		if(sum.length === 10){
@@ -77,7 +77,7 @@ easy.on('click', function(){
 		if(parseInt(textDiv.text()) === random){ // Val() only works with string
 			buttonsDiv.fadeOut(500);
 			main.fadeOut(500);
-			innerDiv.html('<img src="meme1.jpg" alt="meme1" /><br><h2>You Guessed The Right Answer in ' + counter + ' Times!</h2>')
+			innerDiv.html('<img src="img/meme1.jpg" alt="meme1" /><br><h2>You Guessed The Right Answer in <br> ' + counter + ' Times!</h2>')
 			setTimeout(function(){
 				correctAnswer.fadeIn(400)
 			}, 400)
@@ -113,7 +113,7 @@ medium.on('click', function(){
 		if(sum.length === 4){
 			alert('stop')
 		}
-		if(sum.length === 8){
+		if(sum.length === 6){
 			alert('stop again')
 		}
 		if(sum.length === 10){
@@ -126,7 +126,7 @@ medium.on('click', function(){
 		if(parseInt(textDiv.text()) === random){ // Val() only works with string
 			buttonsDiv.fadeOut(500);
 			main.fadeOut(500);
-			innerDiv.html('<img src="meme2.jpg" alt="meme1" /><br><h2>You Guessed The Right Answer in ' + counter + ' Times!</h2>')
+			innerDiv.html('<img src="img/meme2.jpg" alt="meme1" /><br><h2>You Guessed The Right Answer in <br> ' + counter + ' Times!</h2>')
 			setTimeout(function(){
 				correctAnswer.fadeIn(400)
 			}, 400)
@@ -161,7 +161,7 @@ hard.on('click', function(){
 		if(sum.length === 4){
 			alert('stop')
 		}
-		if(sum.length === 8){
+		if(sum.length === 6){
 			alert('stop again')
 		}
 		if(sum.length === 10){
@@ -174,7 +174,7 @@ hard.on('click', function(){
 		if(parseInt(textDiv.text()) === random){ // Val() only works with string
 			buttonsDiv.fadeOut(500);
 			main.fadeOut(500);
-			innerDiv.html('<img src="meme3.jpg" alt="meme3.png" /><br><h2>You Guessed The Right Answer in ' + counter + ' Times!</h2>')
+			innerDiv.html('<img src="img/meme3.jpg" alt="meme3.jpg" /><br><h2>You Guessed The Right Answer in <br> ' + counter + ' Times!</h2>')
 			setTimeout(function(){
 				correctAnswer.fadeIn(400)
 			}, 400)
